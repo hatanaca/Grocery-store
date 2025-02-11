@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<h1>Grocery Cart </h1>
+	<div class="store">
+		<h2>Store</h2>
+		<div class="item">
+			<span>Apple - $1.00</span>
+			<button onclick="addToCart('Apple', 1.00)">Add to Cart</button>
+		</div>
+		<div class="item">
+			<span>Banana - $0.50</span>
+			<button onclick="addToCart('Banana', 0.50)">Add to Cart</button>
+		</div>
+		<div class="item">
+			<span>Orange - $0.75</span>
+			<button onclick="addToCart('Orange', 0.75)">Add to Cart</button>
+		</div>
+	</div>
+
+	<div class="cart">
+		<h2>Cart</h2>
+		<div id="cart-items"></div>
+		<h3>Total: $<span id="total">0.00</span></h3>
+	</div>
+
     <script src="script.js"></script>
 </body>
 </html>
