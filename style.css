@@ -1,6 +1,27 @@
 body {
 	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color:#f4#f4#f4;
+	margin:20px;
+	padding:20px;
+	text-align: center;
 	}
+.store, .cart {
+	display:inline-block;
+	vertical-align: top;
+	width: 45%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+}
+.item {
+	display:flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.cart-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px.
+}
+
