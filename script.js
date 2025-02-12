@@ -17,7 +17,7 @@ function addToCart(item, price) {
 			let itemTotal = cart[item].price * cart[item].quantify;
 			total += itemTotal;
 			cartItemsDiv.innerHTML += `
-			<div class='cart-item">
+			<div class="cart-item">
 			<span>${item} (x${cart[item].quantify}) - $${itemTotal.toFixed(2)}</span>
 			<button onclick="removeFromCart('${item}')">Remove</button>
 			</div>`;
